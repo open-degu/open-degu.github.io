@@ -8,4 +8,4 @@
 
 ## Community / コミュニティ
 
-- [Deguコミュニティページ](https://)
+- [Deguコミュニティページ](https://github.com/open-degu/USER_COMMUNITY)
