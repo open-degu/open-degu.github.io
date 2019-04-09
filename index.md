@@ -6,6 +6,12 @@
 
 - [Roadmap / ロードマップ](https://github.com/orgs/open-degu/projects/1)
 
+## Documents / ドキュメント
+
+- [Hardware / ハードウェア](https://github.com/open-degu/hardware)
+
+    - Degu baseboard circuit, BOM, etc. . / Deguベースボードの回路図、部品表等
+
 ## Community / コミュニティ
 
 - [Deguコミュニティページ](https://github.com/open-degu/USER_COMMUNITY)
