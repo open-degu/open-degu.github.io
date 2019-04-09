@@ -12,6 +12,9 @@
 
     - Degu baseboard circuit, BOM, etc. . / Deguベースボードの回路図、部品表等
 
+- [Degu ユーザーマニュアル](/user_manual)
+- [Degu 技術情報](/technical_specifications)
+
 ## Community / コミュニティ
 
 - [Deguコミュニティページ](https://github.com/open-degu/USER_COMMUNITY)
