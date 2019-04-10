@@ -1,2 +1,6 @@
 remote_theme: pmarsceill/just-the-docs
 
+search_enabled: true
+aux_links:
+        "open-degu on GitHub":
+              - "//github.com/open-degu"
