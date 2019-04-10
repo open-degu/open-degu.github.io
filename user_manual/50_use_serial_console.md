@@ -5,14 +5,14 @@ parent: ユーザーマニュアル
 nav_order: 50
 ---
 
-## コンソールの利用
+# シリアルコンソール
 
 DeguをMicroUSBケーブルでPCに接続すると、PC上ではCDC ACM Classとして動作します。
 これは、シリアルコンソールとして利用することができ、MicroPythonの標準出力、またはシェルとして動作します。
 
 ![serial-console](images/serial_console.png)
 
-### Windowsでシリアルコンソールを利用する
+## Windowsでシリアルコンソールを利用する
 
 WindowsでDeguのシリアルコンソールに接続するには、デフォルトでアタッチされるデバイスドライバーを変更する必要があります。
 
@@ -43,18 +43,18 @@ WindowsでDeguのシリアルコンソールに接続するには、デフォル
 これで、WindowsでDeguのシリアルコンソールに接続する準備が完了しました。
 
 
-### シリアル接続用のアプリケーション
+## シリアル接続用のアプリケーション
 
 Deguのシリアルコンソールを使用するには、以下のようなアプリケーションを利用してください。
 
 * Minicom
 * Tera Term
 
-#### Minicom
+### Minicom
 
 Linuxの場合、代表的なアプリケーションとしてMinicomを利用することができます。
 
-##### Minicomのインストール
+#### Minicomのインストール
 
 * Debian GNU/Linux, Ubuntuの場合
 
@@ -62,20 +62,20 @@ Linuxの場合、代表的なアプリケーションとしてMinicomを利用�
 $ sudo apt install minicom
 ```
 
-##### Minicomでの接続
+#### Minicomでの接続
 
 ```
 $ sudo minicom -D /dev/ttyACM0 -b 115200 -c on
 ```
 
-#### Tera Term
+### Tera Term
 
 Windowsの場合、代表的なアプリケーションとして[TeraTerm](https://ja.osdn.net/projects/ttssh2/)を利用することができます。
 
-##### Tera Termのインストール
+#### Tera Termのインストール
 
 [Tera Termのインストール方法](https://ja.osdn.net/projects/ttssh2/howto/install)を参照してください。
 
-##### Tera Termでの接続
+#### Tera Termでの接続
 
 [Tera Termの使い方](https://ja.osdn.net/projects/ttssh2/howto/usage)を参照してください。
