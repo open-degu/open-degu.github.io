@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "home"
+permalink: /
+---
+
 # Degu Project Resources
 <a href="https://open-degu.com"><img src="images/degu_logo.png" alt="Degu logo" width="400"></a>
 

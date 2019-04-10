@@ -1,6 +1,18 @@
-remote_theme: pmarsceill/just-the-docs
+title: Degu Project Resources
+description: The Degu project softwares and documents.
+baseurl: ""
+url: "https://open-degu.github.io"
 
+permalink: pretty
+exclude: ["LICENSE.txt", "README.md"]
+
+# Enable or disable the site search
 search_enabled: true
+
+# Aux links for the upper right navigation
 aux_links:
-        "open-degu on GitHub":
-              - "//github.com/open-degu"
+  "open-degu on GitHub":
+    - "//github.com/open-degu"
+
+# Color scheme currently only supports "dark" or nil (default)
+color_scheme: nil
