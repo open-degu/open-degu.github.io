@@ -14,6 +14,7 @@
 
 - [Degu ユーザーマニュアル](/user_manual)
 - [Degu 技術情報](/technical_specifications)
+- [Deguゲートウェイマニュアル](/degu_gw_manual)
 
 ## Community / コミュニティ
 
