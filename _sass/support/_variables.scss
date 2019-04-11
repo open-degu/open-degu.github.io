@@ -50,15 +50,20 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
-$body-background-color: $white !default;
-$sidebar-color: $grey-lt-000 !default;
+$degu-bg-color: #f3eddb !default;
+$degu-side-bg-color: #ebe0c2 !default;
+$degu-side-color: $white !default;
+
+
+$body-background-color: $degu-bg-color !default;
+$sidebar-color: $degu-side-bg-color !default;
 $code-background-color: $grey-lt-000 !default;
 
-$body-text-color: $grey-dk-100 !default;
-$body-heading-color: $grey-dk-300 !default;
-$nav-child-link-color: $grey-dk-100 !default;
-$link-color: $purple-000 !default;
-$btn-primary-color: $purple-100 !default;
+$body-text-color: $grey-dk-300 !default;
+$body-heading-color: $grey-dk-100 !default;
+$nav-child-link-color: $grey-dk-000 !default;
+$link-color: #eb6400 !default;
+$btn-primary-color: #eb6400 !default;
 $base-button-color: #f7f7f7 !default;
 
 //
@@ -108,8 +113,8 @@ $sp-10: map-get($spacers, sp-10) !default; // 4.5  rem == 48px
 // Borders
 //
 
-$border: 1px solid !default;
-$border-radius: 4px !default;
+$border: 0px solid !default;
+$border-radius: 0px !default;
 $border-color: $grey-lt-100 !default;
 
 //
