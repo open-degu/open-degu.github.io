@@ -3,7 +3,7 @@ layout: default
 title: Deguゲートウェイマニュアル
 nav_order: 3
 has_children: true
-permalink: technical_specifications
+permalink: degu_gw_manual
 
 ---
 
@@ -11,7 +11,7 @@ permalink: technical_specifications
 
 本ドキュメントでは、各Deguゲートウェイ固有のセットアップ方法や技術情報を紹介します。
 
-Deguの基本的な使い方については、[Degu ユーザーマニュアル](../user_manual/00_intro.md)を参照してください。
+Deguの基本的な使い方については、[Degu ユーザーマニュアル](/user_manual/00_intro.md)を参照してください。
 
 | 製品名 | メーカー |
 |:------|:--------|
