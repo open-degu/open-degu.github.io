@@ -15,5 +15,5 @@ Deguの基本的な使い方については、[Degu ユーザーマニュアル]
 
 | 製品名 | メーカー |
 |:------|:--------|
-| [Deguゲートウェイ G3](./atmark-techno_degu-gw-g3) | 株式会社アットマークテクノ |
-| [Armadillo-IoT ゲートウェイ G3 M1モデル](./atmark-techno_degu-gw-g3) | 株式会社アットマークテクノ |
+| [Deguゲートウェイ G3](/degu_gw_manual/atmark-techno_degu-gw-g3) | 株式会社アットマークテクノ |
+| [Armadillo-IoT ゲートウェイ G3 M1モデル](/degu_gw_manual/atmark-techno_degu-gw-g3) | 株式会社アットマークテクノ |
