@@ -137,7 +137,7 @@ IAMユーザー作成時にダウンロードしたcsvファイルに記載さ�
   "key" : "/etc/coap-mqtt/private.pem.key",
   "cert" : "/etc/coap-mqtt/certificate.pem.crt",
   "cafile" : "/etc/coap-mqtt/RootCA.crt",
-  "aws_endpoint" : "xxxxx.xxxx.amazonaws.com",
+  "aws_endpoint" : "xxxxx.iot.ap-northeast-1.amazonaws.com",
   "secretaccesskey" : "asdfghjkl",
   "accesskeyid" : "AWS123",
   "region" : "ap-northeast-1"
