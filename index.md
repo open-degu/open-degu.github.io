@@ -24,6 +24,10 @@ permalink: /
 - [Degu 技術情報](/technical_specifications)
 - [Deguゲートウェイマニュアル](/degu_gw_manual)
 
+## MicroPython Sample Codes / MicroPythonサンプルコード
+
+- [Degu MicroPython Samples](https://github.com/open-degu/degu-micropython-samples/)
+
 ## Community / コミュニティ
 
 - [Deguコミュニティページ](https://github.com/open-degu/USER_COMMUNITY)
