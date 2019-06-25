@@ -17,3 +17,4 @@ Deguの基本的な使い方については、[Degu ユーザーマニュアル]
 |:------|:--------|
 | [Deguゲートウェイ G3](/degu_gw_manual/atmark-techno_degu-gw-g3) | 株式会社アットマークテクノ |
 | [Armadillo-IoT ゲートウェイ G3 M1モデル](/degu_gw_manual/atmark-techno_armadillo-iotg-g3) | 株式会社アットマークテクノ |
+| [Deguゲートウェイ A6](/degu_gw_manual/atmark-techno_degu-gw-a6) | 株式会社アットマークテクノ |
