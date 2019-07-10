@@ -206,6 +206,8 @@ Deguゲートウェイは各Deguを接続するために無線LANアクセスポ
     PASSPHRASE=degu-pass
     ```
 
+    ※SSIDは1〜32文字、パスフレーズは8〜63文字の間で指定して下さい。
+
 1. `create_ap.conf`の編集後、Deguゲートウェイを再起動してください。
 
     ```
