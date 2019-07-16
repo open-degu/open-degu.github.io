@@ -17,7 +17,7 @@ Deguベースユニット、DeguゲートウェイG3に内蔵されているThre
 
 ### Deguベースユニット製品面の定義
 
-<img src="images/degu_base_unit_surface.svg" width="600" />
+<img src="technical_specifications/images/degu_base_unit_surface.svg" width="600" />
 
 ### DegeゲートウェイG3製品面の定義
 
