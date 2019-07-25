@@ -25,27 +25,34 @@ Deguゲートウェイのソフトウェアをアップデートする方法を�
 
 ## Deguファームウェアアップデート
 
-Deguファームウェアをアップデートする方法を次に示します。
+Deguファームウェアをアップデートする方法を次に示します。最新のDeguファームウェアは、[リリースノート](https://github.com/open-degu/degu/releases)からダウンロードすることができます。
 
-### USB接続でPCからアップデートする
-
-Deguファームウェアは、PCからUSB接続でアップデートすることができます。
-
-#### dfu-utilのダウンロード
+### USB接続でアップデートする
 
 DeguファームウェアをUSB接続でアップデートするには、専用の[dfu-util](https://github.com/open-degu/dfu-util)を使用します。
+`dfu-util`は、DeguゲートウェイまたはLinux PCで実行することができます。
 
-これをビルドするか、[リリースノート](https://github.com/open-degu/dfu-util/releases)からDebian GNU/Linux用の実行バイナリをPCにダウンロードしてください。
 
-バイナリをダウンロードした場合、これに実行権限を付与してください。
+#### Deguゲートウェイで行う場合
+Deguゲートウェイで行う場合、次のコマンドで`dfu-util`をインストールすることができます。
 
 ```
-# chmod +x dfu-util
+$ sudo apt-get update
+$ sudo apt-get install dfu-util
+```
+
+#### Linux PCで行う場合
+Linux PCで行う場合、Debian GNU/LinuxまたはUbuntu向けのdebパッケージを利用することができます。
+
+[dfu-utilのリリースノート](https://github.com/open-degu/dfu-util/releases)から、お使いのPCのアーキテクチャに合った、最新のdebパッケージをPCにダウンロードし、インストールしてください。
+
+```
+$ sudo dpkg -i dfu-util_[VERSION]_[ARCH].deb
 ```
 
 #### アップデート手順
 
-1. MicroUSBケーブル(TypeA側)をPCに接続してください。
+1. MicroUSBケーブル(TypeA側)をDeguゲートウェイまたはLinux PCに接続してください。
 
 1. JST 2pin PHコネクタを外して、JP3をショートしてください。
 
@@ -56,7 +63,7 @@ DeguファームウェアをUSB接続でアップデートするには、専用�
 1. DeguがUSB DFU(Device Firmware Update)モードで起動します。USB DFUモードで起動すると、LED1とLED2が500ms間隔で交互に点滅します。この状態で、`dfu-util`で任意のファームウェアを書き込んでください。
 
     ```
-    # sudo ./dfu-util --alt 1 -D degu.bin
+    $ sudo dfu-util --alt 1 -D degu.bin
     dfu-util 0.9  
     ...
     Opening DFU capable USB device...
