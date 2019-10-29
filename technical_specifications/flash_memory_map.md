@@ -51,7 +51,7 @@ Deguはこれを使って、一度JoinしたOpenThreadネットワークに接�
 OpenThread Network Information領域を消去すると、Deguを別のOpenThreadネットワークにJoinさせることができます。例えば、DeguをLinux PCに接続したとき、/dev/sdxとしてUSB Mass Storage領域にアクセスできる場合、次のコマンドでこの領域を消去することができます。
 
 ```
-$ sudo dd if=/dev/zero of=/dev/sdx bs=1k count=16 seek=16
+$ sudo dd if=/dev/zero of=/dev/sdx bs=1k count=16 seek=16 conv=fsync,nocreat
 ```
 
 /dev/sdx の x はPCに接続した Degu 以外のストレージデバイスによって変わります。多くの PC には最初から /dev/sda があるので、Degu には /dev/sdb 等が割り当てられます。必ず Degu を接続した時に作られるファイルを使ってください。
