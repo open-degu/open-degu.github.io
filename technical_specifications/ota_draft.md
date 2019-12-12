@@ -132,14 +132,17 @@ Hello! I'm Alice.
 ...
 ```
 
-この状態で、AWS IoT Core上の対応するDevice Shadowを編集し、`main_B.py`のURLとMD5ハッシュ値を追加します。
+この状態で、AWS IoT Core上の対応するDevice Shadowを編集し、`main_B.py`のURLとMD5ハッシュ値を以下のように追加します。
 
 ```
 {
-    "desired": {
-        "script_user": "https://raw.githubusercontent.com/open-degu/degu-micropython-samples/master/basic/remote_update/main_B.py",
-        "script_user_ver": "4f3e01b7dc12348ebbd1acfe11ef6328"
-    }
+  "reported": {
+    (省略)
+  },
+  "desired": {
+    "script_user": "https://raw.githubusercontent.com/open-degu/degu-micropython-samples/master/basic/remote_update/main_B.py",
+    "script_user_ver": "4f3e01b7dc12348ebbd1acfe11ef6328"
+  }
 }
 ```
 
