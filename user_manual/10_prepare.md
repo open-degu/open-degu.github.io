@@ -20,6 +20,6 @@ Deguゲートウェイ G3への電源投入方法やPCからの操作方法、�
 
 * [Deguゲートウェイ G3](https://manual.atmark-techno.com/armadillo-iot-g3/armadillo-iotg-g3_startup_guide_ja-2.0.2/ch03.html)
 
-Deguゲートウェイ A6への電源投入方については、[Degu ゲートウェイマニュアル](../../degu_gw_manual/atmark-techno_degu-gw-a6/)を参照してください。PCからの操作方法、インターネットへの接続方法については、製品マニュアルを参照してください。
+Deguゲートウェイ A6への電源投入方法については、[Degu ゲートウェイマニュアル](../../degu_gw_manual/atmark-techno_degu-gw-a6/)を参照してください。PCからの操作方法、インターネットへの接続方法については、製品マニュアルを参照してください。
 
 * [Deguゲートウェイ A6](https://manual.atmark-techno.com/armadillo-640/armadillo-640_product_manual_ja-1.10.0/ch04.html#idm1386)
