@@ -38,12 +38,16 @@ USB Mass Storage領域は、DeguをPCに接続したとき、USBマスストレ�
 
 さらに、この領域は以下のように用途を分けています。
 
-| Address         | Size | Use                            |
-|:---------------:|-----:|:------------------------------:|
-| 0x0000 - 0x3FFF | 16KB |         FAT12 Partition        |
-| 0x4000 - 0x7FFF | 16KB | OpenThread Network Information |
+| Address         | Size | Use                                                                     |
+|:---------------:|-----:|:-----------------------------------------------------------------------:|
+| 0x0000 - 0x3FFF | 16KB |               [FAT12 Partition](#region_fat12_partition)                |
+| 0x4000 - 0x7FFF | 16KB | [OpenThread Network Information](#region_openthread_network_infomation) |
+
+### <a name="region_fat12_partition">FAT12 Partition領域</a>
 
 FAT12 PartitionはFAT12形式でフォーマットされており、MicroPythonコードとCONFIGファイルを格納しています。
+
+### <a name="region_openthread_network_infomation">OpenThread Network Information領域</a>
 
 OpenThread Network Information領域には、DeguがOpenThreadネットワークに接続するための情報が書き込まれています。
 Deguはこれを使って、一度JoinしたOpenThreadネットワークに接続します。
