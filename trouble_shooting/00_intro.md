@@ -21,8 +21,7 @@ maiy.pyが保存できない場合、以下の理由が考えられます
 
 * 保存可能な容量を超えている
 
-    main.pyが保存される[FAT12 Partition領域](../../technical_specifications/flash_memory_map/#region_fat12_partition)の容量は16KBですが、この中にはFAT12メタデータも含まれているため、16KB全てを利用することはできません。  
-    main.pyが容量オーバーで保存できない場合は、コメント・改行を減らすなどして容量を削減してください。
+    main.pyが保存される[FAT12 Partition領域](../../technical_specifications/flash_memory_map/#region_fat12_partition)の容量は16KBですが、この中にはFAT12メタデータも含まれているため、16KB全てを利用することはできません。保存可能な容量を超えている場合は、コメント・改行を減らすなどして容量を削減してください。
 
 * DeguのFlashメモリへmain.pyが書き込まれる前にUSBケーブルを切断している
 
