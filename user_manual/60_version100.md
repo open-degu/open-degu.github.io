@@ -11,9 +11,9 @@ Degu v1.0.0-rc1は、v0.9.x系から様々な変更が含まれています。
 AWSにアクセスする際の、証明書のフォーマットや管理方法が変更となった為、Degu及びDeguゲートウェイのAWS IoT Coreへの再登録が必要となります。  
 ここでは、Degu v1.0.0-rc1へのバージョンアップ手順を説明します。
 
-# Degu GWの更新
+# Deguゲートウェイの更新
 
-## AWS IoT CoreのモノからDegu ゲートウェイを削除
+## AWS IoT CoreのモノからDeguゲートウェイを削除
 
 AWS IoT Core上で、Deguゲートウェイのモノを削除してください。  
 登録されているモノのページで、`アクション`->`削除`をクリックしてください。  
@@ -79,22 +79,22 @@ configuration file '/etc/coap-mqtt/mqttinfo.json'
 
 [Deguゲートウェイのセットアップ](https://open-degu.github.io/user_manual/30_setup/) の『DeguゲートウェイをAWS IoTへ登録』を参照し、DeguゲートウェイをAWS IoT Coreへ再登録してください。
 
-# Deguの更新
+# Deguセンサーの更新
 
 ## ネットワーク情報のクリアとAWS IoT Coreへの再登録
 
-[AWS IoT Coreのシャドウが更新されない](https://open-degu.github.io/trouble_shooting#not_update_shadow)を参照し、Degu内のネットワーク情報をクリアし、AWS IoT Coreへ再登録してください。
+[AWS IoT Coreのシャドウが更新されない](https://open-degu.github.io/trouble_shooting#not_update_shadow)を参照し、Deguセンサー内のネットワーク情報をクリアし、AWS IoT Coreへ再登録してください。
 
-## Deguファームウェアの更新
+## Deguセンサーファームウェアの更新
 
-[最新の状態へのアップデート](https://open-degu.github.io/user_manual/20_software_update/)の手順を参照し、Deguファームウェアを最新にしてください。
+[最新の状態へのアップデート](https://open-degu.github.io/user_manual/20_software_update/)の手順を参照し、Deguセンサーファームウェアを最新にしてください。
 v1.0.0-rc1のファームウェアは、https://github.com/open-degu/degu/releases/tag/v1.0.0-rc1 に存在します。
 
 ## main.py更新
 
 ### サンプルをそのまま使用している場合
 
-[サンプルコード](https://github.com/open-degu/degu-micropython-samples) から最新のサンプルコードをダウンロードし、Deguに適用してください。
+[サンプルコード](https://github.com/open-degu/degu-micropython-samples) から最新のサンプルコードをダウンロードし、Deguセンサーに適用してください。
 
 ### 独自のmain.pyをご利用の場合
 
@@ -109,4 +109,4 @@ v1.0.0-rc1のファームウェアは、https://github.com/open-degu/degu/releas
 
 ### main.pyの適用方法
 
-[MicroPythonコードの変更](https://open-degu.github.io/user_manual/40_update_user_script/)を参照し、Deguに新しいmain.pyを上書きしてください。
+[MicroPythonコードの変更](https://open-degu.github.io/user_manual/40_update_user_script/)を参照し、Deguセンサーに新しいmain.pyを上書きしてください。
