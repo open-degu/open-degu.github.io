@@ -156,6 +156,7 @@ degu-managerを最新バージョンにアップデートします。
 ```
 DeguGW # apt update
 DeguGW # apt install degu-manager
+DeguGW # apt install coap-mqtt-bridge
 ```
 Degu v1.0.0-rc1に対応する、Deguゲートウェイ側Debianパッケージのバージョンは以下の通りです。
 
