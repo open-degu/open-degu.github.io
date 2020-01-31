@@ -128,9 +128,9 @@ https://github.com/open-degu/degu/releases
 バージョン指定をしないでapt installコマンドを実行すると、新ソフトウェア対応のパッケージが自動的に選択されます。  
 
 ```
-[armadillo]:~# apt update
-[armadillo]:~# apt install degu-manager=1.0.3-1
-[armadillo]:~# apt install coap-mqtt-bridge=1.1.0
+DeguGW # apt update
+DeguGW # apt install degu-manager=1.0.3-1
+DeguGW # apt install coap-mqtt-bridge=1.1.0
 ```
 
 
@@ -220,7 +220,7 @@ v1.0.0-rc1のファームウェアは、https://github.com/open-degu/degu/releas
 
 ## main.py更新
 
-### サンプルをそのまま使用している場合
+### サンプルコードをそのまま使用している場合
 
 [サンプルコード](https://github.com/open-degu/degu-micropython-samples) から最新のサンプルコードをダウンロードし、Deguセンサーに適用してください。
 
