@@ -5,6 +5,8 @@ parent: ユーザーマニュアル
 nav_order: 60
 ---
 
+# Degu v0.9.xからv1.0.0-rc1移行ガイド
+
 * [概要](#intro)
 * [Deguゲートウェイの更新](#update_gw)
 * [Deguセンサーの更新](#update_sensor)
