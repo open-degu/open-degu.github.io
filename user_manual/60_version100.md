@@ -9,28 +9,28 @@ nav_order: 60
 
 * [概要](#intro)
 * [Deguゲートウェイの更新](#update_gw)
-* [Deguセンサーの更新](#update_sensor)
+* [Deguの更新](#update_sensor)
 
 # <a name="intro">概要</a>
 
 Deguの新ソフトウェアを2020年1月31日にリリースいたしました。  
 
-Deguゲートウェイ、Deguセンサー(ファームウェア/MicroPythonコード)を新ソフトウェアにアップデートすることにより、次の機能が利用できるようになります。
+Deguゲートウェイ、Degu(ファームウェア/MicroPythonコード)を新ソフトウェアにアップデートすることにより、次の機能が利用できるようになります。
 
-1. セキュアエレメント(A71CH)に保存された証明書を使用した、AWSからの個体認証(センサー、ゲートウェイ共に個体認証可能)
-1. DTLSによるDeguゲートウェイとDeguセンサー間のセキュアな通信
-1. Deguセンサーのパワーマネージメント機能に正式対応
-1. OTAによるDeguセンサーのリモートファームウェアアップデート機能の正式対応
+1. セキュアエレメント(A71CH)に保存された証明書を使用した、AWSからの個体認証(Degu、Deguゲートウェイ共に個体認証可能)
+1. DTLSによるDeguゲートウェイとDegu間のセキュアな通信
+1. Deguのパワーマネージメント機能に正式対応
+1. OTAによるDeguのリモートファームウェアアップデート機能の正式対応
 
 ## 各種ソフトウェアバージョンの互換性に関して
 
 ソフトウェアをアップデートする際は、互換性に注意してください。  
 新・旧混ぜた、下記のような組み合わせでは動作できません。  
 
-* Deguセンサー:旧ソフトウェア、Deguゲートウェイ:新ソフトウェア
-* Deguセンサー:新ソフトウェア、Deguゲートウェイ:旧ソフトウェア
+* Degu:旧ソフトウェア、Deguゲートウェイ:新ソフトウェア
+* Degu:新ソフトウェア、Deguゲートウェイ:旧ソフトウェア
 
-DeguセンサーとDeguゲートウェイは、以下の旧ソフトウェアバージョンと新ソフトウェアバージョンの組み合わせでのみ動作可能です。
+DeguとDeguゲートウェイは、以下の旧ソフトウェアバージョンと新ソフトウェアバージョンの組み合わせでのみ動作可能です。
 
   <table>
     <tr>
@@ -44,7 +44,7 @@ DeguセンサーとDeguゲートウェイは、以下の旧ソフトウェアバ
       <td>サポート</td>
     </tr>
     <tr>
-      <td rowspan="3">Deguセンサー</td>
+      <td rowspan="3">Degu</td>
       <td>degu.bin（MTDファームウェア）</td>
       <td>0.9.5以前</td>
       <td>1.0.0-rc1以降</td>
@@ -111,15 +111,15 @@ DeguセンサーとDeguゲートウェイは、以下の旧ソフトウェアバ
 * Deguゲートウェイ
     * [Deguゲートウェイ G3](https://armadillo.atmark-techno.com/20200131/software-update-degu-g3)
     * [Deguゲートウェイ A6](https://armadillo.atmark-techno.com/20200131/software-update-degu-a6)
-* Deguセンサー  
-Deguセンサーファームウェア バイナリのリリースに関しては以下を参照してください。  
+* Degu  
+Deguファームウェア バイナリのリリースに関しては以下を参照してください。  
 https://github.com/open-degu/degu/releases
 
 ## 旧ソフトウェアを継続して利用する際の手順
 
 旧ソフトウェアを利用する際の手順を次に示します。
 
-### Deguセンサー
+### Degu
 
 0.9.5以前のイメージを書き込んでください。  
 ファームウェアに関しては https://github.com/open-degu/degu/releases からダウンロードしてください。
@@ -208,24 +208,24 @@ configuration file '/etc/coap-mqtt/mqttinfo.json'
 [Deguゲートウェイのセットアップ](https://open-degu.github.io/user_manual/30_setup/) の『DeguゲートウェイをAWS IoTへ登録』を参照し、DeguゲートウェイをAWS IoT Coreへ再登録してください。
 
 
-# <a name="update_sensor">Deguセンサーの更新</a>
+# <a name="update_sensor">Deguの更新</a>
 
-以下に、Deguセンサーを新ソフトウェアへ移行する手順を示します。
+以下に、Deguを新ソフトウェアへ移行する手順を示します。
 
 ## ネットワーク情報のクリアとAWS IoT Coreへの再登録
 
-[AWS IoT Coreのシャドウが更新されない](https://open-degu.github.io/trouble_shooting#not_update_shadow)を参照し、Deguセンサー内のネットワーク情報をクリアし、AWS IoT Coreへ再登録してください。
+[AWS IoT Coreのシャドウが更新されない](https://open-degu.github.io/trouble_shooting#not_update_shadow)を参照し、Degu内のネットワーク情報をクリアし、AWS IoT Coreへ再登録してください。
 
-## Deguセンサーファームウェアの更新
+## Deguファームウェアの更新
 
-[最新の状態へのアップデート](https://open-degu.github.io/user_manual/20_software_update/)の手順を参照し、Deguセンサーファームウェアを最新にしてください。
+[最新の状態へのアップデート](https://open-degu.github.io/user_manual/20_software_update/)の手順を参照し、Deguファームウェアを最新にしてください。
 v1.0.0-rc1のファームウェアは、https://github.com/open-degu/degu/releases/tag/v1.0.0-rc1 に存在します。
 
 ## main.py更新
 
 ### サンプルコードをそのまま使用している場合
 
-[サンプルコード](https://github.com/open-degu/degu-micropython-samples) から最新のサンプルコードをダウンロードし、Deguセンサーに適用してください。
+[サンプルコード](https://github.com/open-degu/degu-micropython-samples) から最新のサンプルコードをダウンロードし、Deguに適用してください。
 
 ### 独自のmain.pyをご利用の場合
 
@@ -240,4 +240,4 @@ v1.0.0-rc1のファームウェアは、https://github.com/open-degu/degu/releas
 
 ### main.pyの適用方法
 
-[MicroPythonコードの変更](https://open-degu.github.io/user_manual/40_update_user_script/)を参照し、Deguセンサーに新しいmain.pyを上書きしてください。
+[MicroPythonコードの変更](https://open-degu.github.io/user_manual/40_update_user_script/)を参照し、Deguに新しいmain.pyを上書きしてください。
