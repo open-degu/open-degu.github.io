@@ -76,8 +76,7 @@ Deguのファイルシステムが壊れたことにより発生したエラー�
 
 #### 対処方法
 
-下記の初期化手順でDeguのFAT12 Partition領域を初期化してください。  
-Partition領域参考) https://open-degu.github.io/technical_specifications/flash_memory_map/#region_usb_mass_storage  
+下記の初期化手順でDeguの[FAT12 Partition領域](../../technical_specifications/flash_memory_map/#region_fat12_partition)を初期化してください。  
 
 この作業により main.py は初期状態に戻ってしまうため、実施前に現在Deguに書き込んでいるmain.pyをPC等に退避してください。  
 ※ Degu上に異なるファイル名(__main.py等)で退避しても、ファイルシステムを初期化するため、初期化後はファイルが消滅します。
@@ -91,9 +90,8 @@ Partition領域参考) https://open-degu.github.io/technical_specifications/flas
 1. 初期化を実施します。  
 
    [Windows]  
-   1) ここでは、Win32 Disk Imagerを用いた手順を説明します。  
-      下記URLよりバイナリをダウンロードし、インストールを実施してください。  
-      https://ja.osdn.net/projects/sfnet_win32diskimager/
+   1) ここでは、[Win32 Disk Imager](https://ja.osdn.net/projects/sfnet_win32diskimager/)を用いた手順を説明します。  
+      上記リンクよりバイナリをダウンロードし、インストールを実施してください。  
    2) ツールを起動し、添付ファイル画像の通りファイルやドライブを指定、実行してください。  
       (1) 上記でダウンロードしたfat12.datを指定  
       (2) Deguのドライブを指定  
